@@ -1,0 +1,57 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\wendy\AppData\Local\node\corepack\yarn\1.22.19\bin\yarn.js
+
+PATH: 
+  C:\Program Files\Zulu\zulu-8\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\MinGW\bin;C:\Program Files\MongoDB\Server\4.4\bin;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Java\jdk1.8.0_321\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\Graphviz\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Gradle\gradle-6.6\bin;C:\Program Files\nodejs\;C:\Users\wendy\Downloads\stripe;C:\flutter\bin;C:\Users\wendy\scoop\shims;C:\Users\wendy\AppData\Local\Microsoft\WindowsApps;C:\Users\wendy\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\wendy\AppData\Local\GitHubDesktop\bin;C:\Program Files\heroku\bin;C:\Users\wendy\AppData\Roaming\Composer\vendor\bin;C:\Users\wendy\AppData\Local\Programs\mongosh\;C:\Users\wendy\.dotnet\tools;C:\Users\wendy\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\bin;C:\Users\wendy\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, copyfile 'C:\Users\wendy\AppData\Local\Yarn\Cache\v6\npm-@babel-compat-data-7.22.9-71cdb00a1ce3a329ce4cbec3a44f9fef35669730-integrity\node_modules\@babel\compat-data\corejs2-built-ins.js' -> 'E:\COURSES\Course Exercise\TypeScript\dotpather\node_modules\@babel\compat-data\corejs2-built-ins.js'
+
+npm manifest: 
+  {
+    "name": "dotpather",
+    "version": "1.0.0",
+    "description": "dotpath lookup module",
+    "main": "index.js",
+    "scripts": {
+      "lint": "standard index.js test/index.js",
+      "test": "node test/index.js && npm run lint",
+      "typecheck": "tsc"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/jarofghosts/dotpather.git"
+    },
+    "keywords": [
+      "dotpath",
+      "utility"
+    ],
+    "author": "jesse keane",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/jarofghosts/dotpather/issues"
+    },
+    "devDependencies": {
+      "@types/jest": "^29.5.3",
+      "jest": "^29.6.2",
+      "standard": "^5.4.1",
+      "tape": "^4.4.0",
+      "ts-jest": "^29.1.1",
+      "typescript": "^5.1.6"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
